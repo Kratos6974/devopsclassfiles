@@ -3,6 +3,7 @@ Use Ubuntu 18.04 Installation
 
 sudo apt update
 sudo apt install openjdk-11-jre -y
+sudo apt install openjdk-8-jdk -y  #use this incase jdk 11 doesn't work and try removing jdk 11 before installing jdk8
 java -version
 
 the output would be similar to below
